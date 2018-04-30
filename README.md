@@ -10,7 +10,8 @@ Sample Postman collection is uploaded as SWAPI API.postman_collection.json.
 # JS Protractor Tests
 I chose the Protractor flavor of Selenium because it looked like the main app at https://shop.shipt.com/ was an angular based site so I would have more accessor options using Protractor. Also, a JS based framework will bundle nicely in the web app project repo. I used the protractor-jasmine2-html-reporter as the reporting library to tie the screenshots with assertion errors. Report is being generated at path 'target/screenshots'. Currently one test is designed to fail with a bad assertion to show what the errors look like.
 
-To run tests, run the command below from the project folder:
+To run tests, run the commands below from the project folder:
+npm install
 npm test
 
 
