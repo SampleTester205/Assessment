@@ -3,7 +3,7 @@
 *.iml
 
 #node
-/node_modules
+SampleTest/node_modules
 
 #directories
 target/
