@@ -1,0 +1,11 @@
+#IntelliJ
+.idea
+*.iml
+
+#node
+/node_modules
+
+#directories
+target/
+.gradle
+build/
