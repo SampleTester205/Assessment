@@ -1,0 +1,19 @@
+Bug Report
+Login page not displaying that username is not in an email format in Chrome
+Priority 3 (Bug does not impede other features, but does need to be fixed since the bug blocks an error message from showing)
+
+See attached screenshots:
+BugReportChome
+BugReportFirefox
+
+Steps to repeat:
+1. Navigate to login page
+2. Enter invalid email in username box(ex 'crap')
+3. Click Login
+
+Expected result:
+Message displays that username is not in corrct format.
+
+Actual result:
+No message displays or any action occurs.
+

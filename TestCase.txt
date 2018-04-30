@@ -1,0 +1,14 @@
+Login-Should log the user into the app and display any problems with login
+
+Successful Login
+-Navigate to https://shop.shipt.com/
+-Fillout username and password field with correct login info
+-Click Login Button
+-Site Landing Page loads
+
+Negative Login: Invalid email format
+-Navigate to https://shop.shipt.com/
+-Fillout Login Textbox with incorrect email format that does not include '@' sign
+-Fillout password field
+-Click Login Button
+-Message displays that email format is invalid
